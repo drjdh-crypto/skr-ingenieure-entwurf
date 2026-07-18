@@ -1,0 +1,49 @@
+{
+  "version": "7.0-e2e-alpha",
+  "source_url": "https://www.skr-ingenieure.de/index.htm",
+  "site_type": "onepager",
+  "company_name": "Skr Ingenieure",
+  "industry": "Tragwerksplanung, Baustatik und Bauphysik",
+  "archetype": "technical-editorial",
+  "sections": [
+    "hero",
+    "services",
+    "trust",
+    "team",
+    "about",
+    "contact"
+  ],
+  "primary_cta": "Kontakt aufnehmen",
+  "services": [
+    "Tragwerksplanung",
+    "Bauphysik",
+    "Bautechnische Prüfung",
+    "Gutachten"
+  ],
+  "design_rules": [
+    {
+      "name": "technical-editorial",
+      "path": "app/knowledge/design-system/archetypes/technical-editorial.md",
+      "excerpt": "# Technical Editorial ## Einsatz Ingenieurbüros, Architektur, Sachverständige und technisch geprägte B2B-Dienstleister. ## Wirkung Präzise, hochwertig, sachlich und persönlich. Große Typografie, asymmetrische Raster und frühe Referenz- oder Kompetenzsignale. ## Regeln - Keine beliebigen runden Kachelwüsten. - Ruhige Flächen und klare vertikale Dramaturgie. - Leistungen präzise benennen; Referenzen und Erfahrung früh zeigen. - Animationen nur subtil einsetzen."
+    },
+    {
+      "name": "engineering",
+      "path": "app/knowledge/design-system/industries/engineering.md",
+      "excerpt": "# Engineering Website Guidance Referenzen, Fachgebiete und verantwortliche Personen sind zentrale Vertrauensanker. Verwende ein Swiss-Grid oder editorial-technisches Layout, präzise Sprache, starke Projektbilder und zurückhaltende Animationen."
+    },
+    {
+      "name": "soft-premium",
+      "path": "app/knowledge/design-system/archetypes/soft-premium.md",
+      "excerpt": "# Soft Premium ## Einsatz Kosmetik, Wellness und persönliche Beauty-Dienstleistungen. ## Wirkung Warm, ruhig, hochwertig und zugänglich. Natürliche Farben, viel Weißraum und eine bildorientierte, aber nicht kitschige Präsentation. ## Regeln - Leistungen übersichtlich und konkret darstellen. - Persönliche Ansprache und Termin-CTA. - Keine klinisch-kalte Optik und keine generischen Beauty-Kacheln."
+    },
+    {
+      "name": "rotating-services-hero",
+      "path": "app/knowledge/design-system/patterns/rotating-services-hero.md",
+      "excerpt": "# Rotating Services Hero Ein dynamischer Hero kann mehrere Leistungen oder Wertversprechen nacheinander zeigen. Nur einsetzen, wenn mindestens drei klar getrennte Leistungen vorhanden sind. Bewegung langsam und barrierearm umsetzen; keine wichtige Information ausschließlich animiert zeigen."
+    }
+  ],
+  "publishing": {
+    "noindex": true,
+    "provider": "github-pages"
+  }
+}
